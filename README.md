@@ -1,1 +1,0 @@
-# MADS-JAM3-s
