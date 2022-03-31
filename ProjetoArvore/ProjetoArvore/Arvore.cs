@@ -24,7 +24,7 @@ namespace ProjetoArvore
         public string Localizacao { get; set; }
         public int Classificacao { get; set; } // Somatorio das observacoes
 
-        //arroz
+        
 
 
 

@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{2686B6C8-A0B5-4540-BC89-83987F3D6A02}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProjetoArvore/Arvore.cs">
+    <Files>
+      <File FileName="TesteProjetoArvore/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="ProjetoArvore/Form1.cs" Line="1" Column="1" />
+      <File FileName="ProjetoArvore/Arvore.cs" Line="15" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProjetoArvore" expanded="True">
+            <Node name="ProjetoArvore" expanded="True">
+              <Node name="Arvore.cs" selected="True" />
+            </Node>
+            <Node name="TesteProjetoArvore" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ProjetoArvore PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
