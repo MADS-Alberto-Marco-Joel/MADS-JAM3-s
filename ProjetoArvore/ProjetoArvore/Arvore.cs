@@ -18,6 +18,15 @@ namespace ProjetoArvore
         public float Altura { get; set; }
         public float Diamentro { get; set; }
         public float Perimetro { get; set; }
+        public DateOnly ValidFrom { get; set; }
+        public DateOnly ValidTo { get; set; }
+        public int IdConstrucao { get; set; } //Id do tipo de caldeira
+        public string Localizacao { get; set; }
+        public int Classificacao { get; set; } // Somatorio das observacoes
+
+
+
+
 
 
 
