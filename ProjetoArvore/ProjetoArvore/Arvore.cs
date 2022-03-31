@@ -15,10 +15,12 @@ namespace ProjetoArvore
         
         public int Id { get; set; }
         public string NomeCientifico { get; set; }  
-        public float Altura { get; set; }   
+        public float Altura { get; set; }
+        public float Diamentro { get; set; }
+        public float Perimetro { get; set; }
 
 
-        
+
 
         //public static bool Existe()
     }

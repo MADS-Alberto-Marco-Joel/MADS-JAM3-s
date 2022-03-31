@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marco\\OneDrive\\Ambiente de Trabalho\\MADS\\ProjetoArvore\\TesteProjetoArvore\\TesteProjetoArvore.csproj": {}
+    "C:\\Users\\joel_\\OneDrive\\Ambiente de Trabalho\\MADS-JAM3-s\\ProjetoArvore\\TesteProjetoArvore\\TesteProjetoArvore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marco\\OneDrive\\Ambiente de Trabalho\\MADS\\ProjetoArvore\\TesteProjetoArvore\\TesteProjetoArvore.csproj": {
+    "C:\\Users\\joel_\\OneDrive\\Ambiente de Trabalho\\MADS-JAM3-s\\ProjetoArvore\\TesteProjetoArvore\\TesteProjetoArvore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Ambiente de Trabalho\\MADS\\ProjetoArvore\\TesteProjetoArvore\\TesteProjetoArvore.csproj",
+        "projectUniqueName": "C:\\Users\\joel_\\OneDrive\\Ambiente de Trabalho\\MADS-JAM3-s\\ProjetoArvore\\TesteProjetoArvore\\TesteProjetoArvore.csproj",
         "projectName": "TesteProjetoArvore",
-        "projectPath": "C:\\Users\\marco\\OneDrive\\Ambiente de Trabalho\\MADS\\ProjetoArvore\\TesteProjetoArvore\\TesteProjetoArvore.csproj",
-        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marco\\OneDrive\\Ambiente de Trabalho\\MADS\\ProjetoArvore\\TesteProjetoArvore\\obj\\",
+        "projectPath": "C:\\Users\\joel_\\OneDrive\\Ambiente de Trabalho\\MADS-JAM3-s\\ProjetoArvore\\TesteProjetoArvore\\TesteProjetoArvore.csproj",
+        "packagesPath": "C:\\Users\\joel_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joel_\\OneDrive\\Ambiente de Trabalho\\MADS-JAM3-s\\ProjetoArvore\\TesteProjetoArvore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joel_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
