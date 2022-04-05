@@ -1,0 +1,17 @@
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\ProjetoArvore.exe
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\ProjetoArvore.deps.json
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\ProjetoArvore.runtimeconfig.json
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\ProjetoArvore.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\ProjetoArvore.pdb
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.csproj.AssemblyReference.cache
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.Form1.resources
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.csproj.GenerateResource.cache
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\refint\ProjetoArvore.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.pdb
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.genruntimeconfig.cache
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ref\ProjetoArvore.dll
