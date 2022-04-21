@@ -48,10 +48,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.btn_Close = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).BeginInit();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_registar
@@ -118,7 +116,7 @@
             // cmbCaldeira
             // 
             this.cmbCaldeira.BackColor = System.Drawing.SystemColors.GrayText;
-            this.cmbCaldeira.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.cmbCaldeira.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.cmbCaldeira.FormattingEnabled = true;
             this.cmbCaldeira.Location = new System.Drawing.Point(488, 257);
             this.cmbCaldeira.Name = "cmbCaldeira";
@@ -129,7 +127,7 @@
             // txtLocalizacao
             // 
             this.txtLocalizacao.BackColor = System.Drawing.SystemColors.GrayText;
-            this.txtLocalizacao.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.txtLocalizacao.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.txtLocalizacao.Location = new System.Drawing.Point(382, 285);
             this.txtLocalizacao.Name = "txtLocalizacao";
             this.txtLocalizacao.Size = new System.Drawing.Size(236, 23);
@@ -218,45 +216,40 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel1.Location = new System.Drawing.Point(1, 25);
+            this.panel1.Location = new System.Drawing.Point(1, 32);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(223, 383);
+            this.panel1.Size = new System.Drawing.Size(223, 376);
             this.panel1.TabIndex = 16;
             // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panel2.Location = new System.Drawing.Point(230, 25);
+            this.panel2.Location = new System.Drawing.Point(230, 32);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(444, 75);
+            this.panel2.Size = new System.Drawing.Size(444, 68);
             this.panel2.TabIndex = 17;
             // 
-            // panel3
+            // btn_Close
             // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panel3.Location = new System.Drawing.Point(651, 1);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(23, 22);
-            this.panel3.TabIndex = 18;
-            // 
-            // panel4
-            // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panel4.Location = new System.Drawing.Point(-646, -2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(23, 22);
-            this.panel4.TabIndex = 19;
+            this.btn_Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.btn_Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Close.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Close.ForeColor = System.Drawing.Color.Red;
+            this.btn_Close.Location = new System.Drawing.Point(648, 4);
+            this.btn_Close.Name = "btn_Close";
+            this.btn_Close.Size = new System.Drawing.Size(26, 25);
+            this.btn_Close.TabIndex = 19;
+            this.btn_Close.Text = "X";
+            this.btn_Close.UseVisualStyleBackColor = false;
+            this.btn_Close.Click += new System.EventHandler(this.btn_Close_Click);
             // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(678, 410);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.btn_Close);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
@@ -282,7 +275,6 @@
             this.Text = "Inserir nova árvore";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).EndInit();
-            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,7 +300,6 @@
         public ComboBox cmb_especies;
         private Panel panel1;
         private Panel panel2;
-        private Panel panel3;
-        private Panel panel4;
+        private Button btn_Close;
     }
 }
