@@ -99,3 +99,5 @@ C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\Test
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\obj\Debug\net6.0\TesteProjetoArvore.pdb
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\obj\Debug\net6.0\TesteProjetoArvore.genruntimeconfig.cache
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\obj\Debug\net6.0\ref\TesteProjetoArvore.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\ProjetoArvore.dll.config
