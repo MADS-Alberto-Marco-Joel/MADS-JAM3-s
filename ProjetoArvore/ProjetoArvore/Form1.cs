@@ -226,5 +226,11 @@ namespace ProjetoArvore
         {
             this.Close();
         }
+
+        private void btn_VerArvores_Click(object sender, EventArgs e)
+        {
+            VerArvores va = new VerArvores();
+            va.Show();
+        }
     }
 }

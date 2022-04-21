@@ -34,6 +34,29 @@ namespace ProjetoArvore
             da.Dispose();
             return dt;
         }
+        public DataTable GetArvores(DataTable dt)
+        {
+            //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Database1.mdf;Database=Database1;Integrated Security=True";
+            //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True";
+            string connString = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
+            string query = "Select arvore.id as Id,Especies.nomecientifico as NomeCientifico,altura,diametro,validFrom,Construcao.tipoconstrucao,localizacao,classificacao " +
+                "from arvore " +
+                "INNER JOIN Especies ON Especies.Id = arvore.NomeCientifico" +
+                " INNER JOIN Construcao ON arvore.idConstrucao = Construcao.Id " +
+                "Where arvore.ativa = 0";
+
+            SqlConnection conn = new SqlConnection(connString);
+            SqlCommand cmd = new SqlCommand(query, conn);
+            conn.Open();
+
+            // create data adapter
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            // this will query your database and return the result to your datatable
+            da.Fill(dt);
+            conn.Close();
+            da.Dispose();
+            return dt;
+        }
         public DataTable GetCaldeiras(DataTable dt)
         {
             //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Database1.mdf;Database=Database1;Integrated Security=True";

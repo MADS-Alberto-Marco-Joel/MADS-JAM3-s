@@ -28,34 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.components = new System.ComponentModel.Container();
+            this.dtGrid_Arvores = new System.Windows.Forms.DataGridView();
+            this.connectBDBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrid_Arvores)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dtGrid_Arvores
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 77);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(776, 295);
-            this.dataGridView1.TabIndex = 0;
+            this.dtGrid_Arvores.AutoGenerateColumns = false;
+            this.dtGrid_Arvores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGrid_Arvores.DataSource = this.connectBDBindingSource;
+            this.dtGrid_Arvores.Location = new System.Drawing.Point(12, 101);
+            this.dtGrid_Arvores.Name = "dtGrid_Arvores";
+            this.dtGrid_Arvores.RowTemplate.Height = 25;
+            this.dtGrid_Arvores.Size = new System.Drawing.Size(776, 295);
+            this.dtGrid_Arvores.TabIndex = 0;
+            // 
+            // connectBDBindingSource
+            // 
+            this.connectBDBindingSource.DataSource = typeof(ProjetoArvore.ConnectBD);
             // 
             // VerArvores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dtGrid_Arvores);
             this.Name = "VerArvores";
             this.Text = "VerArvores";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.VerArvores_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrid_Arvores)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dtGrid_Arvores;
+        private BindingSource connectBDBindingSource;
     }
 }

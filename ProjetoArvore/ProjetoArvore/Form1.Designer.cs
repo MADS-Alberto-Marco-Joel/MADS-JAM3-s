@@ -49,7 +49,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_Close = new System.Windows.Forms.Button();
+            this.btn_VerArvores = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_registar
@@ -215,6 +217,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.btn_VerArvores);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel1.Location = new System.Drawing.Point(1, 32);
             this.panel1.Name = "panel1";
@@ -243,6 +246,16 @@
             this.btn_Close.Text = "X";
             this.btn_Close.UseVisualStyleBackColor = false;
             this.btn_Close.Click += new System.EventHandler(this.btn_Close_Click);
+            // 
+            // btn_VerArvores
+            // 
+            this.btn_VerArvores.Location = new System.Drawing.Point(25, 106);
+            this.btn_VerArvores.Name = "btn_VerArvores";
+            this.btn_VerArvores.Size = new System.Drawing.Size(177, 36);
+            this.btn_VerArvores.TabIndex = 0;
+            this.btn_VerArvores.Text = "btn_VerArvores";
+            this.btn_VerArvores.UseVisualStyleBackColor = true;
+            this.btn_VerArvores.Click += new System.EventHandler(this.btn_VerArvores_Click);
             // 
             // Form1
             // 
@@ -275,6 +288,7 @@
             this.Text = "Inserir nova árvore";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -301,5 +315,6 @@
         private Panel panel1;
         private Panel panel2;
         private Button btn_Close;
+        private Button btn_VerArvores;
     }
 }

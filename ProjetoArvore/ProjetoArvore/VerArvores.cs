@@ -16,5 +16,13 @@ namespace ProjetoArvore
         {
             InitializeComponent();
         }
+
+        private void VerArvores_Load(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            ConnectBD connectBD = new ConnectBD();
+            dt = connectBD.GetArvores(dt);
+            dtGrid_Arvores.DataSource = dt;
+        }
     }
 }
