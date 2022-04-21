@@ -24,3 +24,5 @@ C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\Proj
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.csproj.CopyComplete
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\ProjetoArvore.dll.config
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.Properties.Resources.resources
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.Observacoes.resources
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.VerArvores.resources
