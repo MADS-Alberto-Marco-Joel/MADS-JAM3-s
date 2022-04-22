@@ -39,10 +39,9 @@ namespace ProjetoArvore
             //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Database1.mdf;Database=Database1;Integrated Security=True";
             //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True";
             string connString = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
-            string query = "Select arvore.id as Id,Especies.nomecientifico as NomeCientifico,altura,diametro,validFrom,Construcao.tipoconstrucao,localizacao,classificacao " +
+            string query = "Select arvore.id as Id,Especies.nomecientifico as NomeCientifico,altura,diametro,validFrom,localizacao,classificacao " +
                 "from arvore " +
-                "INNER JOIN Especies ON Especies.Id = arvore.NomeCientifico" +
-                " INNER JOIN Construcao ON arvore.idConstrucao = Construcao.Id " +
+                "INNER JOIN Especies ON Especies.Id = arvore.NomeCientifico " +
                 "Where arvore.ativa = 0";
 
             SqlConnection conn = new SqlConnection(connString);
