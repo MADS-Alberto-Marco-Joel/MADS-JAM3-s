@@ -232,5 +232,13 @@ namespace ProjetoArvore
             VerArvores va = new VerArvores();
             va.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            editarArvore editarArvore = new editarArvore();
+            editarArvore.Show();
+          
+        }
     }
 }

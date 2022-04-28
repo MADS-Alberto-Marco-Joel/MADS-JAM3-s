@@ -44,6 +44,7 @@
             this.dtGrid_Arvores.RowTemplate.Height = 25;
             this.dtGrid_Arvores.Size = new System.Drawing.Size(776, 295);
             this.dtGrid_Arvores.TabIndex = 0;
+            this.dtGrid_Arvores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGrid_Arvores_CellContentClick);
             // 
             // connectBDBindingSource
             // 
@@ -63,6 +64,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dtGrid_Arvores);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "VerArvores";
             this.Text = "VerArvores";
             this.Load += new System.EventHandler(this.VerArvores_Load);

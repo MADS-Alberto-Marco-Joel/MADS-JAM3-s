@@ -56,6 +56,28 @@ namespace ProjetoArvore
             da.Dispose();
             return dt;
         }
+        public DataTable GetArvoresToEdit(DataTable dt)
+        {
+            //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Database1.mdf;Database=Database1;Integrated Security=True";
+            //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True";
+            string connString = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
+            string query = "Select arvore.id as Id,Especies.nomecientifico as NomeCientifico,altura,diametro,perimetro,validFrom,localizacao,classificacao " +
+                "from arvore " +
+                "INNER JOIN Especies ON Especies.Id = arvore.NomeCientifico " +
+                "Where arvore.ativa = 0";
+
+            SqlConnection conn = new SqlConnection(connString);
+            SqlCommand cmd = new SqlCommand(query, conn);
+            conn.Open();
+
+            // create data adapter
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            // this will query your database and return the result to your datatable
+            da.Fill(dt);
+            conn.Close();
+            da.Dispose();
+            return dt;
+        }
         public DataTable GetCaldeiras(DataTable dt)
         {
             //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Database1.mdf;Database=Database1;Integrated Security=True";
@@ -93,6 +115,51 @@ namespace ProjetoArvore
                 cmd.Parameters.AddWithValue("@val",dateTime);
                 
                 if(a.IdConstrucao!=-1)
+                    cmd.Parameters.AddWithValue("@IdC", a.IdConstrucao);
+                else
+                    cmd.Parameters.AddWithValue("@IdC", 0);
+
+
+                cmd.Parameters.AddWithValue("@loc", a.Localizacao);
+
+
+
+
+                try
+                {
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    return "Inserida com sucesso";
+                }
+                catch (Exception ex)
+                {
+                    return "Erro ao inserir,verifique os campos e tente novamente \n" + ex.ToString();
+                }
+                finally
+                {
+                    conn.Close();
+                }
+
+            }
+        }
+        public string EditarArvore(Arvore a)
+        {
+            string connString = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
+            SqlConnection conn = new SqlConnection(connString);
+            using (SqlCommand cmd = new SqlCommand())
+            {
+                cmd.Connection = conn;            // <== lacking
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "update arvore  SET NomeCientifico,altura,diametro,perimetro,validFrom,idConstrucao,localizacao,classificacao,ativa)" +
+                    "VALUES (@es,@al,@di,@pe,@val,@IdC,@loc,0,0)";
+                cmd.Parameters.AddWithValue("@es", a.NomeCientifico);
+                cmd.Parameters.AddWithValue("@al", a.Altura);
+                cmd.Parameters.AddWithValue("@di", a.Diametro);
+                cmd.Parameters.AddWithValue("@pe", a.Perimetro);
+                DateTime dateTime = DateTime.Parse(a.ValidFrom.ToShortDateString());
+                cmd.Parameters.AddWithValue("@val", dateTime);
+
+                if (a.IdConstrucao != -1)
                     cmd.Parameters.AddWithValue("@IdC", a.IdConstrucao);
                 else
                     cmd.Parameters.AddWithValue("@IdC", 0);
