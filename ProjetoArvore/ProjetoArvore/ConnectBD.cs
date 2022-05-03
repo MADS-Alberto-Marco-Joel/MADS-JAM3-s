@@ -34,26 +34,10 @@ namespace ProjetoArvore
             da.Dispose();
             return dt;
         }
-        public DataTable GetArvores(DataTable dt)
+        public DataTable GetArvoreByID(int id)
         {
-            //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Database1.mdf;Database=Database1;Integrated Security=True";
-            //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True";
-            string connString = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
-            string query = "Select arvore.id as Id,Especies.nomecientifico as NomeCientifico,altura,diametro,validFrom,localizacao,classificacao " +
-                "from arvore " +
-                "INNER JOIN Especies ON Especies.Id = arvore.NomeCientifico " +
-                "Where arvore.ativa = 0";
+            DataTable dt = new DataTable();
 
-            SqlConnection conn = new SqlConnection(connString);
-            SqlCommand cmd = new SqlCommand(query, conn);
-            conn.Open();
-
-            // create data adapter
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            // this will query your database and return the result to your datatable
-            da.Fill(dt);
-            conn.Close();
-            da.Dispose();
             return dt;
         }
         public DataTable GetArvoresToEdit(DataTable dt)
@@ -61,10 +45,10 @@ namespace ProjetoArvore
             //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Database1.mdf;Database=Database1;Integrated Security=True";
             //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True";
             string connString = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
-            string query = "Select arvore.id as Id,Especies.nomecientifico as NomeCientifico,altura,diametro,perimetro,validFrom,localizacao,classificacao " +
-                "from arvore " +
-                "INNER JOIN Especies ON Especies.Id = arvore.NomeCientifico " +
-                "Where arvore.ativa = 0";
+            string query = "Select arvore.id as Id,Especies.nomecientifico as NomeCientifico,altura,perimetro,diametro,validFrom,localizacao,COALESCE(NULLIF(Construcao.tipoconstrucao,''), 'Sem caldeira') as Caldeira from arvore" +
+                " INNER JOIN Especies ON Especies.Id = arvore.NomeCientifico" +
+                " LEFT JOIN Construcao ON Construcao.Id = arvore.idConstrucao" +
+                " Where arvore.ativa = 0";
 
             SqlConnection conn = new SqlConnection(connString);
             SqlCommand cmd = new SqlCommand(query, conn);
@@ -78,6 +62,7 @@ namespace ProjetoArvore
             da.Dispose();
             return dt;
         }
+       
         public DataTable GetCaldeiras(DataTable dt)
         {
             //string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Database1.mdf;Database=Database1;Integrated Security=True";
@@ -150,8 +135,9 @@ namespace ProjetoArvore
             {
                 cmd.Connection = conn;            // <== lacking
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "update arvore  SET NomeCientifico,altura,diametro,perimetro,validFrom,idConstrucao,localizacao,classificacao,ativa)" +
-                    "VALUES (@es,@al,@di,@pe,@val,@IdC,@loc,0,0)";
+                cmd.CommandText = "Update arvore SET altura=@al,diametro=@di,perimetro=@pe,validFrom=@val,idConstrucao=@IdC,localizacao=@loc " +
+                    "WHERE NomeCientifico=@es";
+                    
                 cmd.Parameters.AddWithValue("@es", a.NomeCientifico);
                 cmd.Parameters.AddWithValue("@al", a.Altura);
                 cmd.Parameters.AddWithValue("@di", a.Diametro);

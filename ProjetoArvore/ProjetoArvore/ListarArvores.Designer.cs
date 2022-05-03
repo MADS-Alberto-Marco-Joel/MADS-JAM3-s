@@ -1,6 +1,6 @@
 ﻿namespace ProjetoArvore
 {
-    partial class VerArvores
+    partial class ListarArvores
     {
         /// <summary>
         /// Required designer variable.
@@ -28,57 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.dtGrid_Arvores = new System.Windows.Forms.DataGridView();
-            this.connectBDBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtGrid_Arvores)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dtGrid_Arvores
             // 
+            this.dtGrid_Arvores.AllowUserToAddRows = false;
+            this.dtGrid_Arvores.AllowUserToDeleteRows = false;
+            this.dtGrid_Arvores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtGrid_Arvores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtGrid_Arvores.Location = new System.Drawing.Point(12, 101);
+            this.dtGrid_Arvores.Location = new System.Drawing.Point(12, 79);
             this.dtGrid_Arvores.Name = "dtGrid_Arvores";
+            this.dtGrid_Arvores.ReadOnly = true;
             this.dtGrid_Arvores.RowTemplate.Height = 25;
-            this.dtGrid_Arvores.Size = new System.Drawing.Size(776, 295);
-            this.dtGrid_Arvores.TabIndex = 0;
-            this.dtGrid_Arvores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGrid_Arvores_CellContentClick);
+            this.dtGrid_Arvores.Size = new System.Drawing.Size(865, 278);
+            this.dtGrid_Arvores.TabIndex = 2;
+            this.dtGrid_Arvores.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGrid_Arvores_CellContentDoubleClick);
             // 
-            // connectBDBindingSource
-            // 
-            this.connectBDBindingSource.DataSource = typeof(ProjetoArvore.ConnectBD);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(12, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(163, 23);
-            this.textBox1.TabIndex = 1;
-            // 
-            // VerArvores
+            // ListarArvores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(889, 375);
             this.Controls.Add(this.dtGrid_Arvores);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "VerArvores";
-            this.Text = "VerArvores";
-            this.Load += new System.EventHandler(this.VerArvores_Load);
+            this.Name = "ListarArvores";
+            this.Text = "ListarArvores";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ListarArvores_FormClosed);
+            this.Load += new System.EventHandler(this.ListarArvores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtGrid_Arvores)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private DataGridView dtGrid_Arvores;
-        private BindingSource connectBDBindingSource;
-        private TextBox textBox1;
     }
 }

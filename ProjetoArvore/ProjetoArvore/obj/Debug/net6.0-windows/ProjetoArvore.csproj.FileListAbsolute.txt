@@ -25,7 +25,6 @@ C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\Proj
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\ProjetoArvore.dll.config
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.Properties.Resources.resources
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.Observacoes.resources
-C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.VerArvores.resources
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\ProjetoArvore.exe
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\ProjetoArvore.dll.config
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\ProjetoArvore.deps.json
@@ -55,3 +54,5 @@ C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoAr
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.genruntimeconfig.cache
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ref\ProjetoArvore.dll
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.editarArvore.resources
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.editarArvore.resources
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.ListarArvores.resources

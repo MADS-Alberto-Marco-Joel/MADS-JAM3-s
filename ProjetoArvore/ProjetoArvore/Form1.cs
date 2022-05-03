@@ -224,13 +224,14 @@ namespace ProjetoArvore
 
         private void btn_Close_Click(object sender, EventArgs e)
         {
-            this.Close();
+            System.Windows.Forms.Application.Exit();
         }
 
         private void btn_VerArvores_Click(object sender, EventArgs e)
         {
-            VerArvores va = new VerArvores();
-            va.Show();
+            this.Hide();
+            ListarArvores obs = new ListarArvores();
+            obs.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -239,6 +240,11 @@ namespace ProjetoArvore
             editarArvore editarArvore = new editarArvore();
             editarArvore.Show();
           
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

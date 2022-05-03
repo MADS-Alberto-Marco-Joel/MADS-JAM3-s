@@ -48,9 +48,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_editar_arvore = new System.Windows.Forms.Button();
-            this.btn_VerArvores = new System.Windows.Forms.Button();
+            this.btn_Observacoes = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_Close = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -220,7 +219,7 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.btn_editar_arvore);
-            this.panel1.Controls.Add(this.btn_VerArvores);
+            this.panel1.Controls.Add(this.btn_Observacoes);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel1.Location = new System.Drawing.Point(1, 32);
             this.panel1.Name = "panel1";
@@ -238,16 +237,16 @@
             this.btn_editar_arvore.UseVisualStyleBackColor = true;
             this.btn_editar_arvore.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btn_VerArvores
+            // btn_Observacoes
             // 
-            this.btn_VerArvores.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_VerArvores.Location = new System.Drawing.Point(25, 106);
-            this.btn_VerArvores.Name = "btn_VerArvores";
-            this.btn_VerArvores.Size = new System.Drawing.Size(177, 36);
-            this.btn_VerArvores.TabIndex = 0;
-            this.btn_VerArvores.Text = "btn_VerArvores";
-            this.btn_VerArvores.UseVisualStyleBackColor = true;
-            this.btn_VerArvores.Click += new System.EventHandler(this.btn_VerArvores_Click);
+            this.btn_Observacoes.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_Observacoes.Location = new System.Drawing.Point(25, 106);
+            this.btn_Observacoes.Name = "btn_Observacoes";
+            this.btn_Observacoes.Size = new System.Drawing.Size(177, 36);
+            this.btn_Observacoes.TabIndex = 0;
+            this.btn_Observacoes.Text = "Registar Observacoes";
+            this.btn_Observacoes.UseVisualStyleBackColor = true;
+            this.btn_Observacoes.Click += new System.EventHandler(this.btn_VerArvores_Click);
             // 
             // panel2
             // 
@@ -258,26 +257,12 @@
             this.panel2.Size = new System.Drawing.Size(444, 68);
             this.panel2.TabIndex = 17;
             // 
-            // btn_Close
-            // 
-            this.btn_Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.btn_Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_Close.ForeColor = System.Drawing.Color.Red;
-            this.btn_Close.Location = new System.Drawing.Point(648, 4);
-            this.btn_Close.Name = "btn_Close";
-            this.btn_Close.Size = new System.Drawing.Size(26, 25);
-            this.btn_Close.TabIndex = 19;
-            this.btn_Close.Text = "X";
-            this.btn_Close.UseVisualStyleBackColor = false;
-            this.btn_Close.Click += new System.EventHandler(this.btn_Close_Click);
-            // 
             // Form1
             // 
+            this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(678, 410);
-            this.Controls.Add(this.btn_Close);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
@@ -298,9 +283,13 @@
             this.Controls.Add(this.btn_registar);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inserir nova árvore";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -329,8 +318,7 @@
         public ComboBox cmb_especies;
         private Panel panel1;
         private Panel panel2;
-        private Button btn_Close;
-        private Button btn_VerArvores;
+        private Button btn_Observacoes;
         private Button btn_editar_arvore;
     }
 }

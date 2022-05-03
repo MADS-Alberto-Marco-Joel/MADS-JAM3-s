@@ -7,10 +7,10 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Observacoes.cs">
+    <Compile Update="ListarArvores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="VerArvores.cs">
+    <Compile Update="Observacoes.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
