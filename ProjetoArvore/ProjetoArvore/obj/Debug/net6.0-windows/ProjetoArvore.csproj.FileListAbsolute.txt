@@ -41,7 +41,6 @@ C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoAr
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.Form1.resources
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.Observacoes.resources
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.Properties.Resources.resources
-C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.VerArvores.resources
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.csproj.GenerateResource.cache
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.AssemblyInfoInputs.cache
@@ -56,3 +55,4 @@ C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoAr
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.editarArvore.resources
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.editarArvore.resources
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.ListarArvores.resources
+C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.ListarArvores.resources
