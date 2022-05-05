@@ -658,6 +658,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "System.Data.SqlClient/4.6.1.3": {
+        "runtime": {
+          "System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.3",
+            "fileVersion": "4.700.21.41603"
+          }
+        }
       }
     }
   },
@@ -990,6 +998,11 @@
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
     "ProjetoArvore/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.SqlClient/4.6.1.3": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

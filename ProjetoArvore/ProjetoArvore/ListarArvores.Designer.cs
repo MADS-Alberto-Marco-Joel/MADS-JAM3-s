@@ -46,6 +46,7 @@
             this.dtGrid_Arvores.Size = new System.Drawing.Size(865, 278);
             this.dtGrid_Arvores.TabIndex = 2;
             this.dtGrid_Arvores.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGrid_Arvores_CellContentDoubleClick);
+            this.dtGrid_Arvores.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGrid_Arvores_CellDoubleClick);
             // 
             // label1
             // 

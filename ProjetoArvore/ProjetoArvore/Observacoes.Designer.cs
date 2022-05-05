@@ -38,33 +38,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -84,6 +60,32 @@
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.cmbInclTronco = new System.Windows.Forms.ComboBox();
+            this.cmbCondoTronco = new System.Windows.Forms.ComboBox();
+            this.cmbCodoRamos = new System.Windows.Forms.ComboBox();
+            this.cmbCicatrizesTronco = new System.Windows.Forms.ComboBox();
+            this.cmbCascRamos = new System.Windows.Forms.ComboBox();
+            this.cmbcascTronco = new System.Windows.Forms.ComboBox();
+            this.cmbPodridaoColo = new System.Windows.Forms.ComboBox();
+            this.cmbTorcaoTronco = new System.Windows.Forms.ComboBox();
+            this.cmbCicatrizesRamos = new System.Windows.Forms.ComboBox();
+            this.cmbCavidadesRamos = new System.Windows.Forms.ComboBox();
+            this.cmbCavidadesTronco = new System.Windows.Forms.ComboBox();
+            this.cmbPodridaoRamos = new System.Windows.Forms.ComboBox();
+            this.cmbFungoColo = new System.Windows.Forms.ComboBox();
+            this.cmbFungoTronco = new System.Windows.Forms.ComboBox();
+            this.cmbFungoRamos = new System.Windows.Forms.ComboBox();
+            this.cmbExsudacaoTronco = new System.Windows.Forms.ComboBox();
+            this.cmbExsudacaoColo = new System.Windows.Forms.ComboBox();
+            this.cmbCancroRamos = new System.Windows.Forms.ComboBox();
+            this.cmbCancroTronco = new System.Windows.Forms.ComboBox();
+            this.cmbMadeiraMorta = new System.Windows.Forms.ComboBox();
+            this.cmbExsudacaoRamos = new System.Windows.Forms.ComboBox();
+            this.cmbPragasRamos = new System.Windows.Forms.ComboBox();
+            this.cmbPragasTronco = new System.Windows.Forms.ComboBox();
+            this.cmbEpicormicos = new System.Windows.Forms.ComboBox();
+            this.cmbCavidadesColo = new System.Windows.Forms.ComboBox();
+            this.label32 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -186,102 +188,11 @@
             this.label10.TabIndex = 10;
             this.label10.Text = "Podridão ramos";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(214, 94);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(49, 23);
-            this.textBox1.TabIndex = 11;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(214, 123);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(49, 23);
-            this.textBox2.TabIndex = 12;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(214, 152);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(49, 23);
-            this.textBox3.TabIndex = 13;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(214, 181);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(49, 23);
-            this.textBox4.TabIndex = 14;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(214, 210);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(49, 23);
-            this.textBox5.TabIndex = 15;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(214, 239);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(49, 23);
-            this.textBox6.TabIndex = 16;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(214, 268);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(49, 23);
-            this.textBox7.TabIndex = 17;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(214, 297);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(49, 23);
-            this.textBox8.TabIndex = 18;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(214, 326);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(49, 23);
-            this.textBox9.TabIndex = 19;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(214, 355);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(49, 23);
-            this.textBox10.TabIndex = 20;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(214, 384);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(49, 23);
-            this.textBox11.TabIndex = 21;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(214, 413);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(49, 23);
-            this.textBox12.TabIndex = 22;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(214, 442);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(49, 23);
-            this.textBox13.TabIndex = 23;
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(111, 416);
+            this.label11.Location = new System.Drawing.Point(114, 413);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(97, 15);
             this.label11.TabIndex = 24;
@@ -291,7 +202,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(109, 387);
+            this.label12.Location = new System.Drawing.Point(112, 387);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(99, 15);
             this.label12.TabIndex = 25;
@@ -307,88 +218,11 @@
             this.label13.TabIndex = 26;
             this.label13.Text = "Estruturas fungo tronco";
             // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(515, 384);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(49, 23);
-            this.textBox16.TabIndex = 37;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(515, 355);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(49, 23);
-            this.textBox17.TabIndex = 36;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(515, 326);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(49, 23);
-            this.textBox18.TabIndex = 35;
-            // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(515, 297);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(49, 23);
-            this.textBox19.TabIndex = 34;
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(515, 268);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(49, 23);
-            this.textBox20.TabIndex = 33;
-            // 
-            // textBox21
-            // 
-            this.textBox21.Location = new System.Drawing.Point(515, 239);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(49, 23);
-            this.textBox21.TabIndex = 32;
-            // 
-            // textBox22
-            // 
-            this.textBox22.Location = new System.Drawing.Point(515, 210);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(49, 23);
-            this.textBox22.TabIndex = 31;
-            // 
-            // textBox23
-            // 
-            this.textBox23.Location = new System.Drawing.Point(515, 181);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(49, 23);
-            this.textBox23.TabIndex = 30;
-            // 
-            // textBox24
-            // 
-            this.textBox24.Location = new System.Drawing.Point(515, 152);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(49, 23);
-            this.textBox24.TabIndex = 29;
-            // 
-            // textBox25
-            // 
-            this.textBox25.Location = new System.Drawing.Point(515, 123);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(49, 23);
-            this.textBox25.TabIndex = 28;
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(515, 94);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(49, 23);
-            this.textBox26.TabIndex = 27;
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(88, 445);
+            this.label14.Location = new System.Drawing.Point(88, 474);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(120, 15);
             this.label14.TabIndex = 40;
@@ -504,6 +338,7 @@
             this.btn_save.TabIndex = 51;
             this.btn_save.Text = "Guardar";
             this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
             // label25
             // 
@@ -588,12 +423,398 @@
             this.label26.TabIndex = 53;
             this.label26.Text = "-> Classifique cada um dos pontos de 0 a 3";
             // 
+            // cmbInclTronco
+            // 
+            this.cmbInclTronco.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbInclTronco.FormattingEnabled = true;
+            this.cmbInclTronco.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbInclTronco.Location = new System.Drawing.Point(224, 94);
+            this.cmbInclTronco.Name = "cmbInclTronco";
+            this.cmbInclTronco.Size = new System.Drawing.Size(62, 23);
+            this.cmbInclTronco.TabIndex = 59;
+            // 
+            // cmbCondoTronco
+            // 
+            this.cmbCondoTronco.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCondoTronco.FormattingEnabled = true;
+            this.cmbCondoTronco.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbCondoTronco.Location = new System.Drawing.Point(224, 123);
+            this.cmbCondoTronco.Name = "cmbCondoTronco";
+            this.cmbCondoTronco.Size = new System.Drawing.Size(62, 23);
+            this.cmbCondoTronco.TabIndex = 60;
+            // 
+            // cmbCodoRamos
+            // 
+            this.cmbCodoRamos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCodoRamos.FormattingEnabled = true;
+            this.cmbCodoRamos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbCodoRamos.Location = new System.Drawing.Point(224, 152);
+            this.cmbCodoRamos.Name = "cmbCodoRamos";
+            this.cmbCodoRamos.Size = new System.Drawing.Size(62, 23);
+            this.cmbCodoRamos.TabIndex = 61;
+            // 
+            // cmbCicatrizesTronco
+            // 
+            this.cmbCicatrizesTronco.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCicatrizesTronco.FormattingEnabled = true;
+            this.cmbCicatrizesTronco.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbCicatrizesTronco.Location = new System.Drawing.Point(224, 239);
+            this.cmbCicatrizesTronco.Name = "cmbCicatrizesTronco";
+            this.cmbCicatrizesTronco.Size = new System.Drawing.Size(62, 23);
+            this.cmbCicatrizesTronco.TabIndex = 64;
+            // 
+            // cmbCascRamos
+            // 
+            this.cmbCascRamos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCascRamos.FormattingEnabled = true;
+            this.cmbCascRamos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbCascRamos.Location = new System.Drawing.Point(224, 210);
+            this.cmbCascRamos.Name = "cmbCascRamos";
+            this.cmbCascRamos.Size = new System.Drawing.Size(62, 23);
+            this.cmbCascRamos.TabIndex = 63;
+            // 
+            // cmbcascTronco
+            // 
+            this.cmbcascTronco.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbcascTronco.FormattingEnabled = true;
+            this.cmbcascTronco.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbcascTronco.Location = new System.Drawing.Point(224, 181);
+            this.cmbcascTronco.Name = "cmbcascTronco";
+            this.cmbcascTronco.Size = new System.Drawing.Size(62, 23);
+            this.cmbcascTronco.TabIndex = 62;
+            // 
+            // cmbPodridaoColo
+            // 
+            this.cmbPodridaoColo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPodridaoColo.FormattingEnabled = true;
+            this.cmbPodridaoColo.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbPodridaoColo.Location = new System.Drawing.Point(224, 326);
+            this.cmbPodridaoColo.Name = "cmbPodridaoColo";
+            this.cmbPodridaoColo.Size = new System.Drawing.Size(62, 23);
+            this.cmbPodridaoColo.TabIndex = 67;
+            // 
+            // cmbTorcaoTronco
+            // 
+            this.cmbTorcaoTronco.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTorcaoTronco.FormattingEnabled = true;
+            this.cmbTorcaoTronco.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbTorcaoTronco.Location = new System.Drawing.Point(224, 297);
+            this.cmbTorcaoTronco.Name = "cmbTorcaoTronco";
+            this.cmbTorcaoTronco.Size = new System.Drawing.Size(62, 23);
+            this.cmbTorcaoTronco.TabIndex = 66;
+            // 
+            // cmbCicatrizesRamos
+            // 
+            this.cmbCicatrizesRamos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCicatrizesRamos.FormattingEnabled = true;
+            this.cmbCicatrizesRamos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbCicatrizesRamos.Location = new System.Drawing.Point(224, 268);
+            this.cmbCicatrizesRamos.Name = "cmbCicatrizesRamos";
+            this.cmbCicatrizesRamos.Size = new System.Drawing.Size(62, 23);
+            this.cmbCicatrizesRamos.TabIndex = 65;
+            // 
+            // cmbCavidadesRamos
+            // 
+            this.cmbCavidadesRamos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCavidadesRamos.FormattingEnabled = true;
+            this.cmbCavidadesRamos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbCavidadesRamos.Location = new System.Drawing.Point(224, 410);
+            this.cmbCavidadesRamos.Name = "cmbCavidadesRamos";
+            this.cmbCavidadesRamos.Size = new System.Drawing.Size(62, 23);
+            this.cmbCavidadesRamos.TabIndex = 70;
+            // 
+            // cmbCavidadesTronco
+            // 
+            this.cmbCavidadesTronco.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCavidadesTronco.FormattingEnabled = true;
+            this.cmbCavidadesTronco.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbCavidadesTronco.Location = new System.Drawing.Point(224, 384);
+            this.cmbCavidadesTronco.Name = "cmbCavidadesTronco";
+            this.cmbCavidadesTronco.Size = new System.Drawing.Size(62, 23);
+            this.cmbCavidadesTronco.TabIndex = 69;
+            // 
+            // cmbPodridaoRamos
+            // 
+            this.cmbPodridaoRamos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPodridaoRamos.FormattingEnabled = true;
+            this.cmbPodridaoRamos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbPodridaoRamos.Location = new System.Drawing.Point(224, 355);
+            this.cmbPodridaoRamos.Name = "cmbPodridaoRamos";
+            this.cmbPodridaoRamos.Size = new System.Drawing.Size(62, 23);
+            this.cmbPodridaoRamos.TabIndex = 68;
+            // 
+            // cmbFungoColo
+            // 
+            this.cmbFungoColo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFungoColo.FormattingEnabled = true;
+            this.cmbFungoColo.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbFungoColo.Location = new System.Drawing.Point(224, 468);
+            this.cmbFungoColo.Name = "cmbFungoColo";
+            this.cmbFungoColo.Size = new System.Drawing.Size(62, 23);
+            this.cmbFungoColo.TabIndex = 71;
+            // 
+            // cmbFungoTronco
+            // 
+            this.cmbFungoTronco.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFungoTronco.FormattingEnabled = true;
+            this.cmbFungoTronco.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbFungoTronco.Location = new System.Drawing.Point(515, 94);
+            this.cmbFungoTronco.Name = "cmbFungoTronco";
+            this.cmbFungoTronco.Size = new System.Drawing.Size(62, 23);
+            this.cmbFungoTronco.TabIndex = 72;
+            // 
+            // cmbFungoRamos
+            // 
+            this.cmbFungoRamos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFungoRamos.FormattingEnabled = true;
+            this.cmbFungoRamos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbFungoRamos.Location = new System.Drawing.Point(515, 123);
+            this.cmbFungoRamos.Name = "cmbFungoRamos";
+            this.cmbFungoRamos.Size = new System.Drawing.Size(62, 23);
+            this.cmbFungoRamos.TabIndex = 73;
+            // 
+            // cmbExsudacaoTronco
+            // 
+            this.cmbExsudacaoTronco.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbExsudacaoTronco.FormattingEnabled = true;
+            this.cmbExsudacaoTronco.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbExsudacaoTronco.Location = new System.Drawing.Point(515, 181);
+            this.cmbExsudacaoTronco.Name = "cmbExsudacaoTronco";
+            this.cmbExsudacaoTronco.Size = new System.Drawing.Size(62, 23);
+            this.cmbExsudacaoTronco.TabIndex = 75;
+            // 
+            // cmbExsudacaoColo
+            // 
+            this.cmbExsudacaoColo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbExsudacaoColo.FormattingEnabled = true;
+            this.cmbExsudacaoColo.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbExsudacaoColo.Location = new System.Drawing.Point(515, 152);
+            this.cmbExsudacaoColo.Name = "cmbExsudacaoColo";
+            this.cmbExsudacaoColo.Size = new System.Drawing.Size(62, 23);
+            this.cmbExsudacaoColo.TabIndex = 74;
+            // 
+            // cmbCancroRamos
+            // 
+            this.cmbCancroRamos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCancroRamos.FormattingEnabled = true;
+            this.cmbCancroRamos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbCancroRamos.Location = new System.Drawing.Point(515, 297);
+            this.cmbCancroRamos.Name = "cmbCancroRamos";
+            this.cmbCancroRamos.Size = new System.Drawing.Size(62, 23);
+            this.cmbCancroRamos.TabIndex = 79;
+            // 
+            // cmbCancroTronco
+            // 
+            this.cmbCancroTronco.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCancroTronco.FormattingEnabled = true;
+            this.cmbCancroTronco.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbCancroTronco.Location = new System.Drawing.Point(515, 268);
+            this.cmbCancroTronco.Name = "cmbCancroTronco";
+            this.cmbCancroTronco.Size = new System.Drawing.Size(62, 23);
+            this.cmbCancroTronco.TabIndex = 78;
+            // 
+            // cmbMadeiraMorta
+            // 
+            this.cmbMadeiraMorta.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbMadeiraMorta.FormattingEnabled = true;
+            this.cmbMadeiraMorta.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbMadeiraMorta.Location = new System.Drawing.Point(515, 239);
+            this.cmbMadeiraMorta.Name = "cmbMadeiraMorta";
+            this.cmbMadeiraMorta.Size = new System.Drawing.Size(62, 23);
+            this.cmbMadeiraMorta.TabIndex = 77;
+            // 
+            // cmbExsudacaoRamos
+            // 
+            this.cmbExsudacaoRamos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbExsudacaoRamos.FormattingEnabled = true;
+            this.cmbExsudacaoRamos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbExsudacaoRamos.Location = new System.Drawing.Point(515, 210);
+            this.cmbExsudacaoRamos.Name = "cmbExsudacaoRamos";
+            this.cmbExsudacaoRamos.Size = new System.Drawing.Size(62, 23);
+            this.cmbExsudacaoRamos.TabIndex = 76;
+            // 
+            // cmbPragasRamos
+            // 
+            this.cmbPragasRamos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPragasRamos.FormattingEnabled = true;
+            this.cmbPragasRamos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbPragasRamos.Location = new System.Drawing.Point(515, 384);
+            this.cmbPragasRamos.Name = "cmbPragasRamos";
+            this.cmbPragasRamos.Size = new System.Drawing.Size(62, 23);
+            this.cmbPragasRamos.TabIndex = 82;
+            // 
+            // cmbPragasTronco
+            // 
+            this.cmbPragasTronco.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPragasTronco.FormattingEnabled = true;
+            this.cmbPragasTronco.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbPragasTronco.Location = new System.Drawing.Point(515, 355);
+            this.cmbPragasTronco.Name = "cmbPragasTronco";
+            this.cmbPragasTronco.Size = new System.Drawing.Size(62, 23);
+            this.cmbPragasTronco.TabIndex = 81;
+            // 
+            // cmbEpicormicos
+            // 
+            this.cmbEpicormicos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbEpicormicos.FormattingEnabled = true;
+            this.cmbEpicormicos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbEpicormicos.Location = new System.Drawing.Point(515, 326);
+            this.cmbEpicormicos.Name = "cmbEpicormicos";
+            this.cmbEpicormicos.Size = new System.Drawing.Size(62, 23);
+            this.cmbEpicormicos.TabIndex = 80;
+            // 
+            // cmbCavidadesColo
+            // 
+            this.cmbCavidadesColo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCavidadesColo.FormattingEnabled = true;
+            this.cmbCavidadesColo.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.cmbCavidadesColo.Location = new System.Drawing.Point(224, 439);
+            this.cmbCavidadesColo.Name = "cmbCavidadesColo";
+            this.cmbCavidadesColo.Size = new System.Drawing.Size(62, 23);
+            this.cmbCavidadesColo.TabIndex = 84;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.ForeColor = System.Drawing.Color.White;
+            this.label32.Location = new System.Drawing.Point(114, 442);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(89, 15);
+            this.label32.TabIndex = 83;
+            this.label32.Text = "Cavidades Colo";
+            // 
             // Observacoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1000, 535);
+            this.Controls.Add(this.cmbCavidadesColo);
+            this.Controls.Add(this.label32);
+            this.Controls.Add(this.cmbPragasRamos);
+            this.Controls.Add(this.cmbPragasTronco);
+            this.Controls.Add(this.cmbEpicormicos);
+            this.Controls.Add(this.cmbCancroRamos);
+            this.Controls.Add(this.cmbCancroTronco);
+            this.Controls.Add(this.cmbMadeiraMorta);
+            this.Controls.Add(this.cmbExsudacaoRamos);
+            this.Controls.Add(this.cmbExsudacaoTronco);
+            this.Controls.Add(this.cmbExsudacaoColo);
+            this.Controls.Add(this.cmbFungoRamos);
+            this.Controls.Add(this.cmbFungoTronco);
+            this.Controls.Add(this.cmbFungoColo);
+            this.Controls.Add(this.cmbCavidadesRamos);
+            this.Controls.Add(this.cmbCavidadesTronco);
+            this.Controls.Add(this.cmbPodridaoRamos);
+            this.Controls.Add(this.cmbPodridaoColo);
+            this.Controls.Add(this.cmbTorcaoTronco);
+            this.Controls.Add(this.cmbCicatrizesRamos);
+            this.Controls.Add(this.cmbCicatrizesTronco);
+            this.Controls.Add(this.cmbCascRamos);
+            this.Controls.Add(this.cmbcascTronco);
+            this.Controls.Add(this.cmbCodoRamos);
+            this.Controls.Add(this.cmbCondoTronco);
+            this.Controls.Add(this.cmbInclTronco);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.label30);
             this.Controls.Add(this.label29);
@@ -613,33 +834,9 @@
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.textBox20);
-            this.Controls.Add(this.textBox21);
-            this.Controls.Add(this.textBox22);
-            this.Controls.Add(this.textBox23);
-            this.Controls.Add(this.textBox24);
-            this.Controls.Add(this.textBox25);
-            this.Controls.Add(this.textBox26);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -671,33 +868,9 @@
         private Label label8;
         private Label label9;
         private Label label10;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox10;
-        private TextBox textBox11;
-        private TextBox textBox12;
-        private TextBox textBox13;
         private Label label11;
         private Label label12;
         private Label label13;
-        private TextBox textBox16;
-        private TextBox textBox17;
-        private TextBox textBox18;
-        private TextBox textBox19;
-        private TextBox textBox20;
-        private TextBox textBox21;
-        private TextBox textBox22;
-        private TextBox textBox23;
-        private TextBox textBox24;
-        private TextBox textBox25;
-        private TextBox textBox26;
         private Label label14;
         private Label label15;
         private Label label16;
@@ -717,5 +890,31 @@
         private Label label30;
         private Label label31;
         private Label label26;
+        private ComboBox cmbInclTronco;
+        private ComboBox cmbCondoTronco;
+        private ComboBox cmbCodoRamos;
+        private ComboBox cmbCicatrizesTronco;
+        private ComboBox cmbCascRamos;
+        private ComboBox cmbcascTronco;
+        private ComboBox cmbPodridaoColo;
+        private ComboBox cmbTorcaoTronco;
+        private ComboBox cmbCicatrizesRamos;
+        private ComboBox cmbCavidadesRamos;
+        private ComboBox cmbCavidadesTronco;
+        private ComboBox cmbPodridaoRamos;
+        private ComboBox cmbFungoColo;
+        private ComboBox cmbFungoTronco;
+        private ComboBox cmbFungoRamos;
+        private ComboBox cmbExsudacaoTronco;
+        private ComboBox cmbExsudacaoColo;
+        private ComboBox cmbCancroRamos;
+        private ComboBox cmbCancroTronco;
+        private ComboBox cmbMadeiraMorta;
+        private ComboBox cmbExsudacaoRamos;
+        private ComboBox cmbPragasRamos;
+        private ComboBox cmbPragasTronco;
+        private ComboBox cmbEpicormicos;
+        private ComboBox cmbCavidadesColo;
+        private Label label32;
     }
 }

@@ -28,18 +28,23 @@ namespace ProjetoArvore
 
         private void dtGrid_Arvores_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            int row = e.RowIndex;
-            int id = Convert.ToInt32(dtGrid_Arvores[0, row].Value);
-            Id= id;
-            Observacoes obs = new Observacoes();
-            obs.Show();
-            this.Hide();
+            
         }
 
         private void ListarArvores_FormClosed(object sender, FormClosedEventArgs e)
         {
             Form1 f = new Form1();
             f.Show();
+        }
+
+        private void dtGrid_Arvores_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int row = e.RowIndex;
+            int id = Convert.ToInt32(dtGrid_Arvores[0, row].Value);
+            Id = id;
+            Observacoes obs = new Observacoes();
+            obs.Show();
+            this.Hide();
         }
     }
 }
