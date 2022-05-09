@@ -66,6 +66,7 @@
             this.txtAltura.Name = "txtAltura";
             this.txtAltura.Size = new System.Drawing.Size(100, 23);
             this.txtAltura.TabIndex = 22;
+            this.txtAltura.TextChanged += new System.EventHandler(this.txtAltura_TextChanged);
             // 
             // txtDiametro
             // 
@@ -73,6 +74,7 @@
             this.txtDiametro.Name = "txtDiametro";
             this.txtDiametro.Size = new System.Drawing.Size(100, 23);
             this.txtDiametro.TabIndex = 23;
+            this.txtDiametro.TextChanged += new System.EventHandler(this.txtDiametro_TextChanged);
             // 
             // txtLocalizacao
             // 
@@ -170,6 +172,7 @@
             this.txtPerimetro.Name = "txtPerimetro";
             this.txtPerimetro.Size = new System.Drawing.Size(100, 23);
             this.txtPerimetro.TabIndex = 33;
+            this.txtPerimetro.TextChanged += new System.EventHandler(this.txtPerimetro_TextChanged);
             // 
             // cmb_Caldeira
             // 

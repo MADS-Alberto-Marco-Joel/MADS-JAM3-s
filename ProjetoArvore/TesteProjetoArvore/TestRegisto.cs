@@ -1,28 +1,21 @@
 using NUnit.Framework;
 using ProjetoArvore;
+using System.Configuration;
 using System;
 
 namespace TesteProjetoArvore
 {
     public class Tests
     {
-        RepositorioArvores x = new RepositorioArvores();
-        Arvore arvore = new() { Id = 2, NomeCientifico = 1, Altura = 2.50f, Diametro = 3.60f, Perimetro = 100f, Classificacao = 10, IdConstrucao = 1, Localizacao = "porto", ValidFrom = DateOnly.Parse("2022-02-06"), ValidTo = default };
-
         [Test]
         public void ValidarRegisto()
         {
-           Assert.AreEqual(false, x.AddArvore(arvore));
-           
 
+            Arvore a = new Arvore(1, 260, 200, 300, DateOnly.Parse("05/05/2022"), 1, "https://goo.gl/maps/85tqVAwUHyitY22GA", 0);
+            ConnectBD x = new ConnectBD();
+            Assert.AreEqual("Inserido com sucesso", x.InserirArvore(a));
+           
         }
-        public void EditaArvore()
-        {
-             Assert.AreEqual(true, x.EditArvore(arvore));
-        }
-        public void MorteArvore()
-        {
-            Assert.AreEqual(true, x.EditArvore(arvore));
-        }
+       
     }
 }

@@ -132,6 +132,7 @@
             this.txtLocalizacao.BackColor = System.Drawing.SystemColors.GrayText;
             this.txtLocalizacao.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.txtLocalizacao.Location = new System.Drawing.Point(382, 285);
+            this.txtLocalizacao.MaxLength = 200;
             this.txtLocalizacao.Name = "txtLocalizacao";
             this.txtLocalizacao.Size = new System.Drawing.Size(236, 22);
             this.txtLocalizacao.TabIndex = 7;

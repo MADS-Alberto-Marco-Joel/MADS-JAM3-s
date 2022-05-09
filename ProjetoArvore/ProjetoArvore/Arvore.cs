@@ -24,7 +24,7 @@ namespace ProjetoArvore
         public string Localizacao { get; set; }
         public int Classificacao { get; set; } // Somatorio das observacoes
 
-        public Arvore(int nomecientifico,float altura,float diamentro,float perimetro,DateOnly validfrom,DateOnly validto,int idconstrucao,string localizacao,int classificacao)
+        public Arvore(int nomecientifico,float altura,float diamentro,float perimetro,DateOnly validfrom,int idconstrucao,string localizacao,int classificacao)
         {
             NomeCientifico = nomecientifico;
             Altura = altura;

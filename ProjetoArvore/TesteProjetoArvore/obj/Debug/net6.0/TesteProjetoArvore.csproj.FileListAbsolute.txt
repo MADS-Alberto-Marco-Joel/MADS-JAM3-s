@@ -101,3 +101,16 @@ C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\Test
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\obj\Debug\net6.0\ref\TesteProjetoArvore.dll
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\System.Data.SqlClient.dll
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\ProjetoArvore.dll.config
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\App.config
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\TesteProjetoArvore\bin\Debug\net6.0\TesteProjetoArvore.dll.config

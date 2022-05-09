@@ -56,3 +56,4 @@ C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoAr
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.editarArvore.resources
 C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.ListarArvores.resources
 C:\Users\joel_\OneDrive\Ambiente de Trabalho\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\obj\Debug\net6.0-windows\ProjetoArvore.ListarArvores.resources
+C:\Users\marco\OneDrive\Ambiente de Trabalho\MADS\MADS-JAM3-s\ProjetoArvore\ProjetoArvore\bin\Debug\net6.0-windows\App.config
