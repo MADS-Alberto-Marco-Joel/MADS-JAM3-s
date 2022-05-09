@@ -249,5 +249,11 @@ namespace ProjetoArvore
         {
 
         }
+
+        private void dtGrid_Arvores_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            MessageBox.Show("Linha selecionada, por favor edite as informações a baixo!");
+            cmb_especies.Focus();
+        }
     }
 }
