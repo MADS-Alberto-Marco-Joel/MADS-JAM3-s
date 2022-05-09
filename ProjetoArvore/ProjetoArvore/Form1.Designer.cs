@@ -50,15 +50,17 @@
             this.btn_editar_arvore = new System.Windows.Forms.Button();
             this.btn_Observacoes = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label31 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_registar
             // 
             this.btn_registar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_registar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_registar.Location = new System.Drawing.Point(361, 339);
+            this.btn_registar.Location = new System.Drawing.Point(400, 339);
             this.btn_registar.Name = "btn_registar";
             this.btn_registar.Size = new System.Drawing.Size(102, 40);
             this.btn_registar.TabIndex = 0;
@@ -252,11 +254,23 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.label31);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel2.Location = new System.Drawing.Point(230, 32);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(444, 68);
             this.panel2.TabIndex = 17;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label31.ForeColor = System.Drawing.Color.White;
+            this.label31.Location = new System.Drawing.Point(91, 5);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(261, 54);
+            this.label31.TabIndex = 59;
+            this.label31.Text = "Inserir Árvore";
             // 
             // Form1
             // 
@@ -294,6 +308,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.connectBDBindingSource)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,5 +337,6 @@
         private Panel panel2;
         private Button btn_Observacoes;
         private Button btn_editar_arvore;
+        private Label label31;
     }
 }

@@ -59,6 +59,7 @@
             this.dtGrid_Arvores.TabIndex = 1;
             this.dtGrid_Arvores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGrid_Arvores_CellContentClick);
             this.dtGrid_Arvores.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGrid_Arvores_CellDoubleClick);
+            this.dtGrid_Arvores.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dtGrid_Arvores_MouseDoubleClick);
             // 
             // txtAltura
             // 
